@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+  </head>
+  <body class="bg-slate-950">
+    <main
+      class="container flex flex-wrap bg-white h-screen gap-3 overflow-hidden md:overflow-hidden md:flex-wrap md:flex-shrink md:justify-center"
+    >
+      <div class="relative">
+        <img
+          class="h-full w-96"
+          src="/images/narayan-dharua-HjXN4TFeVWM-unsplash.jpg"
+          alt=""
+        />
+        <div
+          class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center bg-slate-500"
+        >
+          <h1 class="text-white text-4xl w-auto">ODIN</h1>
+        </div>
+      </div>
+      <section
+        class="items-center clear-both md:flex-col md:flex-wrap sm:flex-col"
+      >
+        <p class="pt-2 font-bold mt-24">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi
+          nemo<br />
+          nam delectus libero maxime cupiditate illo molestiae placeat, et<br />
+          mollitia porro deleniti beatae iure exercitationem, ducimus
+          laudantium<br />
+          cum quisquam.
+        </p>
+        <form
+          class="md:flex-col md:flex-wrap md:flex-shrink md:overflow-hidden"
+        >
+          <p class="text-center font-semibold">let's do this</p>
+          <fieldset class="shadow-xl w-full p-4">
+            <div class="flex p-3 gap-3 md:flex flex-wrap sm:grid-cols-3">
+              <label for="first-name">First Name</label>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="First Name"
+                class="border"
+              />
+              <label for="last-name">Last Name</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                placeholder="Last Name"
+                class="border"
+              />
+            </div>
+            <div class="flex p-3 gap-3">
+              <label for="Email">Email</label>
+              <input
+                type="email"
+                id="Email"
+                name="Email"
+                placeholder="Email"
+                class="border"
+              />
+              <label for="num">Telephone</label>
+              <input
+                type="tel"
+                id="num"
+                placeholder="Telephone"
+                class="border"
+              />
+            </div>
+            <div class="flex p-3 gap-3">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Password"
+                class="border"
+              />
+              <label for="confirm-password">Confirm Password</label>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                placeholder="Confirm Password"
+                class="border"
+              />
+            </div>
+          </fieldset>
+          <button class="bg-lime-900 mt-5 text-white p-1 w-40 rounded-md h-9">
+            create Account
+          </button>
+          <p class="mt-2 block">
+            Already have an Account?
+            <a class="text-lime-600 block" href="# ">log in</a>
+          </p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
